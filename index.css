@@ -1,0 +1,43 @@
+* {background-color: #2A2A2A}
+
+.carouselBack{
+    position: absolute;
+    left:0;
+    top:0;
+    width:100%;
+    height:100vh;
+    animation: crsl 35s ease-in-out infinite;
+    background-size: cover;
+    opacity: 0.5;
+    
+}
+
+@keyframes crsl {
+    0%,100%{
+        background-image:url(c1.jpg) ;
+    }
+    20%{
+        background-image:url(c3.png) ;
+    }
+    40%{
+        background-image:url(c4.jpg) ;
+    }
+    60%{
+        background-image:url(c5.jpg) ;
+    }
+    80%{
+        background-image:url(c6.jpg) ;
+    }
+    
+}
+
+.mainBox {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 610px;
+    height: 739px;
+    background: rgba(59, 59, 59, 0.8);
+    border-radius: 25px
+}
