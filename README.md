@@ -16,8 +16,8 @@ Activate venv
 .\venv\Scripts\activate
 ```
 
-Install django
+Install libraries
 
 ```bash
-python install django
+pip install requirements.txt
 ```
